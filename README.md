@@ -27,6 +27,6 @@ Due to large complexity of training models, included here are a few pretrained m
       --damage-model runs/segment/runs/damage_seg/train_v2/weights/best.pt
   ```
 
-For use with (https://github.com/t4g/ml-adas-pilot)[t4g/ml-adas-pilot Project] or your YOLOv8 project
+For use with (https://github.com/t4g/ml-adas-pilot) platform or your own YOLOv8 project
 
 Author: @t4g (Kyle Younge)
