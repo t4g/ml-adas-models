@@ -29,4 +29,18 @@ Due to large complexity of training models, included here are a few pretrained m
 
 For use with (https://github.com/t4g/ml-adas-pilot) platform or your own YOLOv8 project
 
+## Results
+
+Leading mode: [segment/runs/damage_seg/train_v2]
+
+![segment/runs/damage_seg/train_v2/val_batch2_labels.png](Example)
+
+![segment/runs/damage_seg/train_v2/results.png](Overview)
+
+![segment/runs/damage_seg/train_v2/MaskPR_curve.png](Seg P-R)
+
+![segment/runs/damage_seg/train_v2/BoxPR_curve.png](Bounding Box P-R)
+
+## Authors
+
 Author: @t4g (Kyle Younge)
