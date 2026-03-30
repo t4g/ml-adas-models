@@ -26,3 +26,7 @@ Due to large complexity of training models, included here are a few pretrained m
   python -m adas_pipeline --input video.mp4 --output out.mp4 \
       --damage-model runs/segment/runs/damage_seg/train_v2/weights/best.pt
   ```
+
+For use with (https://github.com/t4g/ml-adas-pilot)[t4g/ml-adas-pilot Project] or your YOLOv8 project
+
+Author: @t4g (Kyle Younge)
