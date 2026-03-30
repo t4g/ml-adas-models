@@ -1,5 +1,15 @@
 # ADAS Video ML Model Binary Store
 
+## Overview
+
+For use with [https://github.com/t4g/ml-adas-pilot] platform:
+
+A modular CLI application that processes dashcam video (file or RTSP stream) and outputs an MP4 with ADAS-style overlays including lane detection, road damage detection, pedestrian detection with collision-risk highlighting, and forward motion estimation.
+
+_or your own YOLOv8 project_
+
+___
+
 Due to large complexity of training models, included here are a few pretrained models to get you started.
 
  ```text
@@ -17,7 +27,7 @@ Due to large complexity of training models, included here are a few pretrained m
   Pothole detection is strong (68% mAP50). Crack detection is lower due  
   to the more fragmented nature of cracks, but still functional.
 
-  The model is ready at:
+  The model is at:
   ```runs/segment/runs/damage_seg/train_v2/weights/best.pt```
 
   Use it with the pipeline:
@@ -27,11 +37,9 @@ Due to large complexity of training models, included here are a few pretrained m
       --damage-model runs/segment/runs/damage_seg/train_v2/weights/best.pt
   ```
 
-For use with (https://github.com/t4g/ml-adas-pilot) platform or your own YOLOv8 project
-
 ## Results
 
-Leading mode: [segment/runs/damage_seg/train_v2]
+Leading model: [segment/runs/damage_seg/train_v2]
 
 ![segment/runs/damage_seg/train_v2/val_batch2_labels.png](Example)
 
@@ -43,4 +51,4 @@ Leading mode: [segment/runs/damage_seg/train_v2]
 
 ## Authors
 
-Author: @t4g (Kyle Younge)
+Author: [@t4g] (Kyle Younge)
